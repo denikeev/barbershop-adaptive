@@ -1,0 +1,25 @@
+$white: #ffffff;
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 960px;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $white;
+  text-transform: uppercase;
+
+  background-color: #070707;
+  background-image: url("img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+//  * {
+//   outline: 2px dotted red;
+//   outline-offset: -2px;
+//   background-color: rgba(0, 0, 0, 0.1)
+// } 
