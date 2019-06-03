@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"style.css","sourcesContent":[]}
+{"version":3,"sources":["blocks/page-header.scss"],"names":[],"mappings":"AAIA;EACE,cAAc;EACd,yBAAyB,EAAA","file":"style.css","sourcesContent":["// .page-header {\n\n// }\n\n.page-header__logo {\n  display: block;\n  background-color: #242424;\n}\n"]}
