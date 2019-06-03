@@ -1,0 +1,21 @@
+.main-nav {
+  display: flex;
+  // align-items: flex-start;
+  align-content: stretch;
+
+}
+
+.main-nav__toggle {
+  width: 70px;
+  margin-left: auto;
+  padding: 16px;
+  order: 1;
+
+  background-color: #6a4d38;
+  border: none;
+}
+
+.main-nav__wrapper {
+  flex-grow: 1;
+  background-color: #826550;
+}
