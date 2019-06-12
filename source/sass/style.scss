@@ -1,11 +1,8 @@
-body {
-  margin: 0;
+@import 'variables';
+@import 'common';
 
-  font-family: 'PT Sans Narrow', sans-serif;
-}
-@import 'general/common.scss';
-@import 'blocks/page-header.scss';
-@import 'blocks/main-nav.scss';
-@import 'blocks/site-list.scss';
-@import 'blocks/user-list.scss';
-
+@import 'blocks/page-header';
+@import 'blocks/main-nav';
+@import 'blocks/site-list';
+@import 'blocks/user-list';
+@import 'blocks/stats';

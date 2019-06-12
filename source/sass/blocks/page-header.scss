@@ -1,12 +1,10 @@
-// .page-header {
-
-// }
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
 
 .page-header__logo {
-  display: block;
-  padding: 28px 0;
-
-  background-color: #242424;
+  height: 85px;
 }
 
 .page-header__logo-image {
@@ -14,3 +12,15 @@
   margin: 0 auto;
 }
 
+@media (min-width: $tablet-width) {
+  .page-header__logo {
+    order: 2;
+    height: 400px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    height: 648px;
+  }
+}
