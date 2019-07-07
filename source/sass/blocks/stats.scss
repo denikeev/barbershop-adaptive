@@ -87,10 +87,12 @@
   padding: 20px;
   padding-bottom: 19px;
 
-  vertical-align: top;
+  // vertical-align: top; //было в демке, я убрал
 }
 
 .stats__value {
+  position: relative;
+
   padding-right: 0;
 
   font-size: 40px;
@@ -98,7 +100,9 @@
 }
 
 .stats__value sup {
-  top: -0.35em;
+  position: absolute;
+  // top: -0.35em; было в демке
+  top: 0.45em; // моё значение
 
   margin-left: 5px;
 }
@@ -162,6 +166,10 @@
     color: rgba(0, 0, 0, 0.3);
   }
 
+  .stats__legend--bottom {
+    display: none;
+  }
+
   .stats__list tbody {
     display: flex;
     flex-wrap: wrap;
@@ -174,7 +182,8 @@
   }
 
   .stats__list td {
-    display: block;
+    display: inline-block; //моё значение
+    // display: block; // значение с демки 
     width: auto;
     padding: 0;
   }
@@ -184,6 +193,10 @@
 
     font-size: 72px;
     line-height: 72px;
+    sup {
+      top: -0.15em; // добавлено
+      right: -0.5em; // добавлено
+    }
   }
 
   .stats__field {
@@ -219,7 +232,8 @@
 
   .stats__intro {
     width: auto;
-    margin-bottom: 32px;
+    margin-bottom: 32px; // значение с демо
+    // margin-bottom: 49px; //моё значение
     padding-right: 30px;
   }
 

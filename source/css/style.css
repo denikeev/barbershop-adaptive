@@ -427,16 +427,17 @@ a {
 .stats__field {
   width: 50%;
   padding: 20px;
-  padding-bottom: 19px;
-  vertical-align: top; }
+  padding-bottom: 19px; }
 
 .stats__value {
+  position: relative;
   padding-right: 0;
   font-size: 40px;
   line-height: 40px; }
 
 .stats__value sup {
-  top: -0.35em;
+  position: absolute;
+  top: 0.45em;
   margin-left: 5px; }
 
 .stats__field {
@@ -484,6 +485,8 @@ a {
     display: block;
     width: 240px;
     color: rgba(0, 0, 0, 0.3); }
+  .stats__legend--bottom {
+    display: none; }
   .stats__list tbody {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -495,13 +498,16 @@ a {
     padding: 25px 35px;
     padding-bottom: 28px; }
   .stats__list td {
-    display: block;
+    display: inline-block;
     width: auto;
     padding: 0; }
   .stats__value {
     margin-bottom: 7px;
     font-size: 72px;
     line-height: 72px; }
+    .stats__value sup {
+      top: -0.15em;
+      right: -0.5em; }
   .stats__field {
     font-size: 20px;
     line-height: 27px;
