@@ -102,9 +102,9 @@
 .stats__value sup {
   position: absolute;
   // top: -0.35em; было в демке
-  top: 0.45em; // моё значение
+  top: 1.15em; // моё значение
 
-  margin-left: 5px;
+  margin-left: 7px;
 }
 
 .stats__field {
@@ -183,7 +183,7 @@
 
   .stats__list td {
     display: inline-block; //моё значение
-    // display: block; // значение с демки 
+    // display: block; // значение с демки
     width: auto;
     padding: 0;
   }
@@ -194,7 +194,7 @@
     font-size: 72px;
     line-height: 72px;
     sup {
-      top: -0.15em; // добавлено
+      top: 0.45em; // добавлено
       right: -0.5em; // добавлено
     }
   }
