@@ -20,10 +20,8 @@
 
   opacity: 0.3;
 
-  polygon {
-    fill: #ffffff;
+  fill: #ffffff;
   }
-}
 
 
 @media (min-width: $tablet-width) {
@@ -38,9 +36,8 @@
     font-size: 0;
     &:hover .user-list__login-icon {
       opacity: 1;
-      polygon {
-        fill: #826550;
-      }
+      fill: #826550;
+
     }
     // &:active .user-list__login-icon {
     //   opacity: 0.3;
@@ -88,9 +85,7 @@
     }
     &:hover .user-list__login-icon {
       opacity: 0.3;
-      polygon {
-        fill: #000000;
-      }
+      fill: #000000;
     }
     &:active .user-list__login-icon {
       opacity: 0.1;

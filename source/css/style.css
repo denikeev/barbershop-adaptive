@@ -328,9 +328,8 @@ a {
   left: 21px;
   width: 16px;
   height: 16px;
-  opacity: 0.3; }
-  .user-list__login-icon polygon {
-    fill: #ffffff; }
+  opacity: 0.3;
+  fill: #ffffff; }
 
 @media (min-width: 768px) {
   .user-list {
@@ -341,9 +340,8 @@ a {
     padding: 0;
     font-size: 0; }
     .user-list__login:hover .user-list__login-icon {
-      opacity: 1; }
-      .user-list__login:hover .user-list__login-icon polygon {
-        fill: #826550; }
+      opacity: 1;
+      fill: #826550; }
   .user-list__login-icon {
     top: 29px;
     left: 12px; } }
@@ -372,9 +370,8 @@ a {
       color: rgba(0, 0, 0, 0.3);
       background-color: #ffffff; }
     .user-list__login:hover .user-list__login-icon {
-      opacity: 0.3; }
-      .user-list__login:hover .user-list__login-icon polygon {
-        fill: #000000; }
+      opacity: 0.3;
+      fill: #000000; }
     .user-list__login:active .user-list__login-icon {
       opacity: 0.1; }
   .user-list__login-icon {
